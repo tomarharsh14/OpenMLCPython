@@ -81,7 +81,7 @@ def individual_data(indiv):
         formal = formal.replace('S6', 'x6')
     else:
         # toy problem support for multiple controls
-        formal = indiv.get_formal()[0].replace('S0', 'x0')  # Should all of them be [0]? Mostly not
+        formal = indiv.get_formal()[0].replace('S0', 'x0')  # Should all of them be [0]? Mostly not. And this can be compressed of course
         formal = formal.replace('S1', 'x1')
         formal = formal.replace('S2', 'x2')
         formal = formal.replace('S3', 'x3')
